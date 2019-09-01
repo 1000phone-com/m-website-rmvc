@@ -1,0 +1,7 @@
+架构设计
+  前后端分离、模块化开发
+  技术选型：gulp + es6 + sass + artTemplate
+  支持多页面
+
+1:搭建环境
+  gulp-webserver 搭建
