@@ -1,0 +1,35 @@
+@import "./reset.scss";
+
+$base_color: red;
+
+body {
+  background:$base_color;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 45px;
+  background:#00b38a;
+}
+
+main {
+flex: 1;
+}
+
+footer {
+  height: 45px;
+  background:#efefef;
+  nav ul{
+      display: flex;
+      flex-direction: row;
+  }
+  nav ul li {
+          list-style: none;
+          flex: 1;
+          color: white;
+          font-size: 0.16rem;
+          text-align: center;
+          line-height: 45px;
+  }
+}

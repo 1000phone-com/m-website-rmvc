@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+html, body {
+  height: 100%; }
+
+html {
+  font-size: 100px; }
+
+body {
+  background: red;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  height: 45px;
+  background: #00b38a; }
+
+main {
+  flex: 1; }
+
+footer {
+  height: 45px;
+  background: #efefef; }
+  footer nav ul {
+    display: flex;
+    flex-direction: row; }
+  footer nav ul li {
+    list-style: none;
+    flex: 1;
+    color: white;
+    font-size: 0.16rem;
+    text-align: center;
+    line-height: 45px; }
